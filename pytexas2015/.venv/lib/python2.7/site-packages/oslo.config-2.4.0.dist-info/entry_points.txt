@@ -1,0 +1,3 @@
+[console_scripts]
+oslo-config-generator = oslo_config.generator:main
+
