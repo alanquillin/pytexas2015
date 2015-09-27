@@ -1,0 +1,10 @@
+table=0,priority=0,actions=drop
+
+table=0,ip,in_port=1,actions=output:5
+table=0,ip,in_port=2,actions=output:5
+table=0,ip,in_port=3,actions=output:5
+table=0,ip,in_port=4,actions=output:5
+table=0,ip,in_port=5,nw_dst=172.16.0.1,actions=mod_dl_dst=00:00:00:00:00:02,output:1
+table=0,ip,in_port=5,nw_dst=172.16.0.2,actions=mod_dl_dst=00:00:00:00:00:03,output:2
+table=0,ip,in_port=5,nw_dst=172.16.0.3,actions=mod_dl_dst=00:00:00:00:00:04,output:3
+table=0,ip,in_port=5,nw_dst=172.16.0.4,actions=mod_dl_dst=00:00:00:00:00:05,output:4

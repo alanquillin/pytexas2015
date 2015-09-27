@@ -1,0 +1,39 @@
+Metadata-Version: 2.0
+Name: oslo.i18n
+Version: 2.6.0
+Summary: Oslo i18n library
+Home-page: http://launchpad.net/oslo
+Author: OpenStack
+Author-email: openstack-dev@lists.openstack.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Requires-Dist: pbr (<2.0,>=1.6)
+Requires-Dist: Babel (>=1.3)
+Requires-Dist: six (>=1.9.0)
+
+==================================================
+ oslo.i18n -- Oslo Internationalization Utilities
+==================================================
+
+The oslo.i18n library contain utilities for working with
+internationalization (i18n) features, especially translation for text
+strings in an application or library.
+
+* Free software: Apache license
+* Documentation: http://docs.openstack.org/developer/oslo.i18n
+* Source: http://git.openstack.org/cgit/openstack/oslo.i18n
+* Bugs: http://bugs.launchpad.net/oslo.i18n
+
+
+

@@ -1,0 +1,7 @@
+ryu
+netaddr
+pbr
+Babel>=1.3
+oslo.config
+oslo.log
+webob

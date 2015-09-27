@@ -1,0 +1,27 @@
+Metadata-Version: 1.1
+Name: pytexas2015
+Version: 0.0.0
+Summary: pytexas 2015 Demo Ryu Controller
+Home-page: http://www.alanquillin.com
+Author: Alan Quillin
+Author-email: alanquillin@gmail.com
+License: UNKNOWN
+Description: ===============================
+        PyTexas2015
+        ===============================
+        
+        Dynamic routing OVS controller using ryu
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
