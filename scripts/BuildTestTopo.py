@@ -67,22 +67,22 @@ if __name__ == "__main__":
     h1 = net.getNodeByName('h_vm1')
     h1.cmdPrint('route add default gw 172.16.0.254 h_vm1-eth0')
     h1.setARP(ip='172.16.0.254', mac='00:00:00:00:22:22')
-    h1.cmdPrint('sudo python -m SimpleHTTPServer 80 &')
+    h1.cmdPrint('cd vm1 && sudo python -m SimpleHTTPServer 80 &')
 
     h2 = net.getNodeByName('h_vm2')
     h2.cmdPrint('route add default gw 172.16.0.254 h_vm2-eth0')
     h2.setARP(ip='172.16.0.254', mac='00:00:00:00:33:33')
-    h2.cmdPrint('sudo python -m SimpleHTTPServer 80 &')
+    h2.cmdPrint('cd vm2 && sudo python -m SimpleHTTPServer 80 &')
 
     h3 = net.getNodeByName('h_vm3')
     h3.cmdPrint('route add default gw 172.16.0.254 h_vm3-eth0')
     h3.setARP(ip='172.16.0.254', mac='00:00:00:00:44:44')
-    h3.cmdPrint('sudo python -m SimpleHTTPServer 80 &')
+    h3.cmdPrint('cd vm3 && sudo python -m SimpleHTTPServer 80 &')
 
     h4 = net.getNodeByName('h_vm4')
     h4.cmdPrint('route add default gw 172.16.0.254 h_vm4-eth0')
     h4.setARP(ip='172.16.0.254', mac='00:00:00:00:55:55')
-    h4.cmdPrint('sudo python -m SimpleHTTPServer 80 &')
+    h4.cmdPrint('cd vm4 && sudo python -m SimpleHTTPServer 80 &')
 
     os.system("ovs-vsctl del-controller northbound")
     os.system("ovs-vsctl del-controller southbound")

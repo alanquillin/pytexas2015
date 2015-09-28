@@ -1,4 +1,5 @@
 table=0,ip,nw_dst=10.0.0.1,actions=mod_dl_dst=00:00:00:00:00:01,output:1
 table=0,ip,nw_dst=10.0.0.2,actions=mod_dl_dst=00:00:00:00:02:01,output:2
 table=0,priority=1,ip,in_port=1,actions=output:3
+table=0,priority=1,ip,in_port=2,actions=output:3
 table=0,priority=0,actions=drop
